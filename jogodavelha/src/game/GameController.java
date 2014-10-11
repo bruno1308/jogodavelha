@@ -19,8 +19,12 @@ public class GameController {
             this.turn = false;
         }
     }
-    
+    public boolean checkHorizontal(){
+        return true;
+        
+    }
     public boolean checkWinner(){
+        if(board[0][0] == 'X') return true;
         return true;
     }
     
