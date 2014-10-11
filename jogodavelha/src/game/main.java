@@ -17,5 +17,6 @@ public class main {
         gc.setMove(move);
         gc.setMove(move);
         gc.printBoard();
+        //bruno viadao
     }
 }
