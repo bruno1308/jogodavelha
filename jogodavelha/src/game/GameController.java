@@ -29,8 +29,8 @@ public class GameController {
         }
         if(board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] == 'X') return 0;
         if(board[0][0] == 'O' && board[1][1] == 'O' && board[2][2] == 'O') return 1;
-        if(board[0][3] == 'X' && board[1][1] == 'X' && board[3][0] == 'X') return 0;
-        if(board[0][3] == 'O' && board[1][1] == 'O' && board[3][0] == 'O') return 1;
+        if(board[0][2] == 'X' && board[1][1] == 'X' && board[2][0] == 'X') return 0;
+        if(board[0][2] == 'O' && board[1][1] == 'O' && board[2][0] == 'O') return 1;
 
         
         return -1;
